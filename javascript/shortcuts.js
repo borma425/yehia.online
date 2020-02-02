@@ -1,28 +1,28 @@
 document.onkeyup = function (Yehia_F_key) {
   if (Yehia_F_key.which == 83) {
-$(&quot;document&quot;).ready(function() {
+$(document).ready(function() {
     setTimeout(function() {
-        $(&quot;#search_auto&quot;)[0].click();
+        $(#search_auto)[0].click();
     },10);
 });  }
   
    else if (Yehia_F_key.which == 68) {
-$(&quot;document&quot;).ready(function() {
+$(document).ready(function() {
     setTimeout(function() {
-        $(&quot;.dntoggle&quot;)[0].click();
+        $(.dntoggle)[0].click();
     },10);
 });  } 
    else if (Yehia_F_key.which == 84) {
-$(&quot;document&quot;).ready(function() {
+$(document).ready(function() {
     setTimeout(function() {
-        $(&quot;.img&quot;)[0].click();
+        $(.img)[0].click();
     },10);
 });  } 
   
      else if (Yehia_F_key.which == 77) {
-$(&quot;document&quot;).ready(function() {
+$(document).ready(function() {
     setTimeout(function() {
-        $(&quot;#yehia_morep&quot;)[0].click();
+        $(#yehia_morep)[0].click();
     },10);
 });  } 
 
@@ -32,7 +32,7 @@ $(&quot;document&quot;).ready(function() {
 
      else if (Yehia_F_key.which == 89) {
 
-profile_u = &quot;https://www.yehia.online/p/profile.html&quot;;
+profile_u = https://www.yehia.online/p/profile.html;
 window.open(profile_u);
 
  } 

@@ -3,4 +3,23 @@
 .stories.facesnap .story>.item-link{text-decoration:none;color:#333}.stories.facesnap .story>.item-link>.item-preview{border-radius:50%;padding:2px;background:#3b5998}.stories.facesnap .story>.item-link>.item-preview img{border-radius:50%;border:3px solid #fff}.stories.facesnap .story.seen{opacity:.5}.stories.facesnap .story.seen>a>.item-preview{background:#999}
 .stories.vemdezap .story>.item-link{text-decoration:none;color:#333}.stories.vemdezap .story>.item-link>.item-preview{border-radius:50%;padding:2px;background:#00bfa5}.stories.vemdezap .story>.item-link>.item-preview img{border-radius:50%;border:3px solid #fff}.stories.list.vemdezap .story{border-bottom:1px solid #eee}.stories.list.vemdezap .story:last-child{border-bottom:0}.stories.list.vemdezap .story>.item-link>.info .time{display:inline-block;color:#999}.stories.vemdezap .story.seem>img{opacity:.75}.stories.vemdezap .story.seem>a>.item-preview{background:#999}.stories.vemdezap .story.seem>a{color:#999!important}
 .stories.snapgram .story>.item-link{text-decoration:none;color:#333}.stories.snapgram .story>.item-link>.item-preview{border-radius:50%;padding:2px;background:radial-gradient(ellipse at 70% 70%,#ee583f 8%,#d92d77 42%,#bd3381 58%)}.stories.snapgram .story>.item-link>.item-preview img{border-radius:50%;border:3px solid #fff}.stories.snapgram .story.seen{opacity:.75}.stories.snapgram .story.seen>a>.item-preview{background:#999}.stories.snapgram .story.seen>a{color:#999!important}
-body{font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen-Sans,Cantarell,helvetica neue,sans-serif;font-size:14px;padding:0;margin:0;color:#333}.storiesWrapper{padding:12px;max-width:500px;margin:0 auto}h1{text-align:center;font-family:monospace;padding:0 12px;border-bottom:1px solid #ddd;font-size:24px;height:56px;line-height:56px;margin-bottom:0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}h1.Snapgram{background:#fff;color:#333}h1.FaceSnap{background:#3b5998;color:#fff}h1.VemDeZAP{background:#085e53;color:#fff}h1.Snapssenger{background:#0084ff;color:#fff}.disclaimer{display:block;text-decoration:none!important;color:#333;line-height:1.5em;background:#ffffd2;border-radius:3px;margin:12px 12px 0;padding:12px 12px 12px 74px;font-size:13px;max-width:500px;overflow:hidden;min-height:50px}.disclaimer img{float:left;margin-right:12px;width:50px;position:absolute;margin-left:-62px}.disclaimer a{color:inherit!important;border:0}.disclaimer p{margin:0}.disclaimer p+p{margin-top:1.25em}.skin{text-transform:uppercase;white-space:nowrap;overflow:hidden;font-weight:700;position:absolute;z-index:10;left:0;right:0;bottom:0;background:#fff;font-size:16px;padding:12px;color:#fff;background:#333}.skin select{background:#fff;font-size:inherit;text-transform:none;max-width:30%}@media(min-width:524px){.disclaimer{margin:12px auto}}
+
+body {font-family:'Roboto', sans-serif;font-size:14px;padding:0;margin:0;color:#333}
+#stories {padding: 12px;}
+h1 {text-align: center;font-family: monospace;padding:0 12px;margin:0;border-bottom:1px solid #ddd;font-size:24px;height:56px;line-height:56px;margin-bottom: 0;white-space: nowrap;text-overflow: ellipsis;overflow:hidden;}
+h1.Snapgram {background: #fff;color:#333;}
+h1.FaceSnap {background: #3B5998;color: #fff;}
+h1.VemDeZAP {background: #085E53;color: #fff;}
+h1.Snapssenger {background: #0084FF;color:#fff;}
+.disclaimer {display:block;text-decoration: none !important;color:#333;line-height: 1.5em;background: #ffffd2;border-radius:3px;margin: 12px 12px 0;padding:12px 12px 12px 74px;font-size:13px;max-width: 500px;overflow: hidden;min-height: 50px;}
+.disclaimer img {float:left;margin-right: 12px;width:50px;position: absolute;margin-left:-62px;}
+.disclaimer a {color: inherit !important;border:0;}
+.disclaimer p {margin: 0;}
+.disclaimer p + p {margin-top: 1.25em}
+.skin {text-transform: uppercase;white-space: nowrap;overflow: hidden;font-weight: bold;position: absolute;z-index: 10;left:0;right:0;bottom: 0;background: #fff;font-size:16px;padding:12px;color:#fff;background:#333;}
+.skin select {background: #fff; font-size:inherit;text-transform: none; max-width: 30%;}
+#stories {max-width: 500px;margin:0 auto;}
+@media (min-width: 524px){
+.disclaimer {margin: 12px auto;}
+}
+strong {font-weight:500}

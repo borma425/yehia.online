@@ -1,0 +1,127 @@
+
+<b:if cond='data:blog.url != data:blog.homepageUrl'> 
+
+
+
+<script defer='defer'>function copyToClipboard(){var a=document.createElement(&quot;input&quot;);a.setAttribute(&quot;value&quot;,&quot;Yehia &quot;);document.body.appendChild(a);a.select();document.execCommand(&quot;copy&quot;);document.body.removeChild(a);alert(&quot;ممنوع لقطه الشاشه علي موقعي من حاسوبك&quot;)}$(window).keyup(function(a){if(a.keyCode==44){copyToClipboard()}});$(window).focus(function(){$(&quot;body&quot;).show()}).blur(function(){$(&quot;body&quot;).show()});</script>
+
+
+
+
+
+<script defer='defer' src='https://cdn.statically.io/gh/yehia-hacker/yehia.online/6cfb4155/javascript/svg99.js'/>
+
+
+
+
+
+
+
+<script defer='defer' src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js'/>
+
+
+
+
+
+
+
+<link href='https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css' rel='stylesheet' type='text/css'/>
+
+
+<script data-cfasync='false' src='https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js'/>
+<script>window.cookieconsent.initialise({palette:{popup:{background:&quot;#383b75&quot;},button:{background:&quot;#f1d600&quot;}},theme:&quot;classic&quot;,content:{message:&quot;               الموقع يستخدم ملفات الإرتباط أضغط حسنا لتجربه أفضل              &quot;,dismiss:&quot;حسنا&quot;,link:&quot;معرفة المزيد&quot;}});</script>
+
+
+
+
+
+
+
+
+<script type='text/javascript'>
+
+$(document).ready(function() {
+    $(window).on(&quot;contextmenu&quot;,function(e){
+       return false;
+    }); 
+}); 
+ document.onkeydown = function (e) {
+    e = e || window.event;//Get event
+    if (e.ctrlKey) {
+        var c = e.which || e.keyCode;//Get key code
+        switch (c) {
+            case 83://Block Ctrl+S
+            case 87://Block Ctrl+W --Not work in Chrome
+            case 73://Block Ctrl+I
+            case 67: //Block Ctrl+C
+                e.preventDefault();     
+                e.stopPropagation();
+            break;
+        }
+    }
+};
+
+</script>
+
+
+<script type='text/javascript'>
+        let yehia_bl_select
+if (CSS.supports(&quot;( -moz-user-select: none )&quot;)){yehia_bl_select = 1} else {yehia_bl_select = 0}
+(yehia_bl_select===1) ? document.body.style.MozUserSelect=&quot;none&quot; : document.body.style.userSelect=&quot;none&quot;
+    </script>
+
+
+
+ <script defer='defer' type='text/javascript'> //<![CDATA[
+function nocontext(e) {var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName; if (clickedTag == "IMG") {alert(alertMsg);return false;}} var alertMsg = "ممنوع نسخ الصوره";document.oncontextmenu = nocontext; 
+//]]>
+</script>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css' rel='stylesheet' type='text/css'/>
+<script defer='defer' type='text/javascript'>$(document).ready(function(){$(&quot;.post-body a img&quot;).each(function(){var b=/.(?:jpg|jpeg|gif|png)$/i.test($(this).parent(&quot;a&quot;).attr(&quot;href&quot;));if(b){$(this).parent(&quot;a&quot;).attr(&quot;data-src&quot;,$(this).parent(&quot;a&quot;).attr(&quot;href&quot;));$(this).parent(&quot;a&quot;).attr(&quot;data-fancybox&quot;,&quot;postLightBox&quot;)}else{}});var a={infobar:!0,buttons:!0,speed:300,margin:[40,20]};$(&quot;[data-fancybox]&quot;).fancybox(a)});</script>
+
+ 
+
+<script type='text/javascript'>
+        let yehia_select_input
+if (CSS.supports(&quot;( -moz-user-select: none )&quot;)){yehia_select_input = 1} else {yehia_select_input = 0}
+(yehia_select_input===1) ? document.body.style.MozUserSelect=&quot;none&quot; : document.body.style.userSelect=&quot;none&quot;
+    </script>
+
+
+
+<script> defer=&#39;defer&#39; var oldSrc = &#39;//resources.blogblog.com/img/blank.gif&#39;; var newSrc = &#39;https://banner2.cleanpng.com/20180719/geh/kisspng-logo-computer-icons-clip-art-white-hat-hacker-icon-5b501129ee38e6.3089293815319739299758.jpg&#39;; $(&#39;img[src=&quot;&#39; + oldSrc + &#39;&quot;]&#39;).attr(&#39;src&#39;, newSrc); </script>
+
+
+
+<style>
+@import &quot;https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css&quot;;
+@import &quot;https://fonts.googleapis.com/earlyaccess/amiri.css&quot;;
+</style>
+<script> var oldSrc = &#39;//resources.blogblog.com/img/blank.gif&#39;; var newSrc = &#39;https://banner2.cleanpng.com/20180719/geh/kisspng-logo-computer-icons-clip-art-white-hat-hacker-icon-5b501129ee38e6.3089293815319739299758.jpg&#39;; $(&#39;img[src=&quot;&#39; + oldSrc + &#39;&quot;]&#39;).attr(&#39;src&#39;, newSrc); </script>
+
+
+
+
+
+
+
+
+&lt;div&gt;
+&lt;script&gt;var message=&quot;ممنوع نسخ نص أو حفظ صورة&quot;;function clickIE4(){if (event.button==2){alert(message);return false;}}function clickNS4(e){if (document.layers||document.getElementById&amp;&amp;!document.all){if (e.which==2||e.which==3){alert(message);return false;}}}if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;}else if (document.all&amp;&amp;!document.getElementById){document.onmousedown=clickIE4;}document.oncontextmenu=new Function(&quot;alert(message);return false&quot;)
+&lt;/script&gt;&lt;/div&gt;
+
+<style>
+#searchfg .close {
+    position: fixed;
+    top: -20px;
+    right: 15px;
+    color: #fff;
+    background: transparent;
+    opacity: 0.8;
+    font-size: 40px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+</style>
+</b:if>

@@ -1,4 +1,0 @@
-<h1>Connect</h1>
-<script>
-alert('Good');
-</script>

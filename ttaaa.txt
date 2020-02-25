@@ -1,0 +1,344 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900&subset=arabic');
+.labellist{
+  font-family: 'Cairo', sans-serif;
+  line-height: normal;
+}
+</style>
+
+<div id='top-container'>
+<div id='topfix-container'>
+<nav class='labellist' id='freemenu' itemscope='itemscope' itemtype='https://schema.org/WPHeader'>
+<div id='head-mobile'/>
+<div class='button' id='menu-button'/>
+<ul>
+<li><a href='https://www.yehia.online/search/label/security' itemprop='url'><span itemprop='name'>الحماية
+<i class='fa fa-user-secret ' style='font-size:17px'/>
+</span></a>
+<ul>
+<li><a href='https://www.yehia.online/search/label/security-website' itemprop='url'><span itemprop='name'>ِموقع <i class='fas fa-server' style='font-size:19px'/>
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/security-windows' itemprop='url'><span itemprop='name'>ويندوز <i class='fa fa-windows' style='font-size:16px'/>
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/security-linux' itemprop='url'><span itemprop='name'>لينكس  <i class='fab fa-linux' style='font-size:20px'/>
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/security-programing' itemprop='url'><span itemprop='name'>برمجه
+<i class='fa fa-code '/>
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/security-android' itemprop='url'><span itemprop='name'>أندرويد  <i class='fas fa-mobile-alt' style='font-size:17px'/></span></a></li>
+</ul>
+</li>
+<li><a href='https://www.yehia.online/search/label/spyer' itemprop='url'><span itemprop='name'>إختبار الأختراق
+<i class='fas fa-user-shield'/>
+</span></a>
+<ul>
+<li><a href='https://www.yehia.online/search/label/spyer-android' itemprop='url'><span itemprop='name'>ِعبر الهاتف <i class='fas fa-mobile-alt' style='font-size:17px'/>
+
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/spyer-windows' itemprop='url'><span itemprop='name'>عبر الويندوز <i class='fa fa-windows' style='font-size:16px'/>
+
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/spyer-linux' itemprop='url'><span itemprop='name'>عبر لينكس <i class='fab fa-linux' style='font-size:20px'/>
+
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/spyer-website' itemprop='url'><span itemprop='name'>عبر موقع <i class='fas fa-server' style='font-size:19px'/>
+
+</span></a></li>
+</ul>
+</li>
+<li><a href='https://www.yehia.online/search/label/new' itemprop='url'><span itemprop='name'> أكواد جاهزه <i class='fa fa-file-code-o'/>
+</span></a>
+<ul>
+<li><a href='https://www.yehia.online/search/label/code-python' itemprop='url'><span itemprop='name'>ِPython <i class='fab fa-python' style='       font-size:15px;       color: #2b70ab;       '/></span></a></li>
+<li><a href='https://www.yehia.online/search/label/code-ruby' itemprop='url'><span itemprop='name'>Ruby <i class='fas fa-gem' style='color:red'/>
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/code-html' itemprop='url'><span itemprop='name'>HTML <i class='fab fa-html5' style='color:red;font-size:16px'/>
+
+</span></a></li>
+
+</ul>
+</li>
+<li><a href='https://www.yehia.online/p/all-course.html' itemprop='url'><span itemprop='name'>دورات <i class='fa fa-graduation-cap'/>
+</span></a>
+<ul>
+</ul>
+</li>
+<li><a href='https://www.yehia.online/search/label/programing' itemprop='url'><span itemprop='name'>مكتبات<i class='fa fa-code '/>
+</span></a>
+<ul>
+<li><a href='https://www.yehia.online/search/label/Python_Libraries' itemprop='url'><span itemprop='name'>Python <i class='fab fa-python' style='       font-size:15px;       color: #2b70ab;       '/>
+
+</span></a></li>
+<li><a href='https://www.yehia.online/search/label/Ruby_Libraries' itemprop='url'><span itemprop='name'>Ruby <i class='fas fa-gem' style='color:red'/>
+
+</span></a></li>
+
+</ul>
+</li>
+
+<li><a href='#' itemprop='url'><span itemprop='name'>حول الموقع
+<i aria-hidden='true' class='fa fa-level-down' style='font-size:14px'/></span></a>
+<ul>
+<li><a href='https://www.yehia.online/search/label/android' itemprop='url'><span itemprop='name'>المتجر <i aria-hidden='true' class='fa fa-shopping-cart' style='font-size:14px'/>
+</span></a>
+
+</li>
+<li><a href='https://www.yehia.online/p/blog-page_8.html' itemprop='url'><span itemprop='name'>أتصل بنا<i class='fa fa-volume-control-phone'/></span></a></li>
+<li><a href='https://www.yehia.online/p/h2h3ptext-alignrightatext.html' itemprop='url'><span itemprop='name'>سياسة الخصوصية<i class='fas fa-balance-scale' style='font-size:17px'/>
+</span></a></li>
+<li><a href='https://www.yehia.online/p/blog-page_16.html' itemprop='url'><span itemprop='name'>من نحن<i class='fa fa-users' style='font-size:17px'/>
+
+</span></a></li>
+<li><a href='https://www.yehia.online/p/blog-page_50.html' itemprop='url'><span itemprop='name'>إتفاقية الإستخدام
+</span></a></li>
+<li><a href='https://www.yehia.online/p/shortcut-key.html' itemprop='url'>الإختصارات<span itemprop='name'/></a></li>
+
+</ul>
+</li>
+</ul>
+</nav>
+<!-- seye-->
+
+<style>
+
+[data-icon]:after {
+  font-family: "entypo";
+  content: attr(data-icon);
+  speak: none;
+}
+
+input[type="search"] {
+  /*@include input-placeholder {
+    color: transparent;
+  }*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 196px;
+  height: 36px;
+  padding: 0;
+  line-height: 32px;
+  background: #56e2c9;
+  color: #fff;
+  border: 0;
+  font: bold italic 14px Arial,Helvetica,sans-serif;
+  text-indent: 12px;
+  outline: none;
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-input-placeholder {
+  color: transparent;
+}
+input[type="search"]::-moz-input-placeholder {
+  color: transparent;
+}
+input[type="search"]:-ms-input-placeholder {
+  color: transparent;
+}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+input[type="search"]::-webkit-search-cancel-button:before, input[type="search"]::-webkit-search-results-button:before, input[type="search"]::-webkit-search-results-decoration:before {
+  position: absolute;
+  content: 'x';
+  font-style: normal;
+}
+input[type="search"]:invalid {
+  border: 0 !important;
+}
+input[type="search"]:invalid::-webkit-search-cancel-button:before, input[type="search"]:invalid::-webkit-search-results-button:before, input[type="search"]:invalid::-webkit-search-results-decoration:before {
+  font-family: "entypo";
+  content: attr(data-icon);
+}
+input[type="search"] + label {
+  position: absolute;
+  margin: 8px 0 0 -30px;
+  cursor: pointer;
+}
+input[type="search"] + label:before {
+  position: absolute;
+  content: 'Brand Filter';
+  left: -152px;
+  width: 180px;
+  color: #fff;
+  font: bold 14px/20px "Arial", sans-serif;
+  text-align: left;
+}
+input[type="search"] + label:after {
+  margin-left: 7px;
+  color: #fff;
+  content: '\25BE';
+}
+input[type="search"]:focus {
+  /*@include input-placeholder {
+    font-weight: normal;
+    color: #fff;
+  } */
+}
+input[type="search"]:focus::-webkit-input-placeholder {
+  font-weight: normal;
+  color: #fff;
+}
+input[type="search"]:focus::-moz-input-placeholder {
+  font-weight: normal;
+  color: #fff;
+}
+input[type="search"]:focus:-ms-input-placeholder {
+  font-weight: normal;
+  color: #fff;
+}
+input[type="search"]:focus:invalid + label:before {
+  display: none;
+}
+input[type="search"]:focus:invalid + label:after {
+  margin-left: 4px;
+  content: attr(data-icon);
+}
+input[type="search"]:valid + label {
+  display: none;
+}
+
+.ui-autocomplete {
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+  width: 190px;
+  max-height: 180px;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #2ec5aa;
+  color: #fff;
+    border: 2px solid #deceba;
+}
+.ui-autocomplete ul {
+  list-style: none;
+}
+.ui-autocomplete li {
+  height: 36px;
+  margin: 0;
+  font: bold 14px/36px Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+.ui-autocomplete li:hover {
+  -moz-transition: background 0.15s ease-in;
+  -o-transition: background 0.15s ease-in;
+  -webkit-transition: background 0.15s ease-in;
+  transition: background 0.15s ease-in;
+  background: #3ED1B7;
+}
+.ui-autocomplete li:hover:nth-child(5), .ui-autocomplete li:hover:last-child {
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+}
+.ui-autocomplete li a {
+  display: block;
+  padding: 0 12px;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+background: linear-gradient(90deg,#544365,#544365 1px,#544365 0,#544365);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg,#c33a68d4,#7b4f9c,#5d64bdb0,#7b4f9c,#ca366887);
+background: linear-gradient(180deg,#ca3668,#7b4f9c,#5d64bd,#7b4f9c,#bb76db);
+    background: linear-gradient(180deg,#ca3668,#7b4f9c);
+
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: linear-gradient(180deg,#7b4f9c,#b83657);
+}
+::-webkit-scrollbar-button {
+  display: block;
+  width: 17px;
+  height: 9px;
+}
+</style>
+
+
+
+<div class='search-icon'>
+<a href='#searchfg'><i class='fa fa-search' id='search_auto'/></a>
+</div>
+<center>
+
+<div id='searchfg'>
+
+<button class='close' type='button'>×</button>
+
+<form action='/search' id='search-form' method='get'>
+<input autocomplete='off' data-list='brands-list' id='yehia___website' name='q' placeholder='بحث  ...' type='search' value=''/>
+
+<input name='max-results' type='hidden' value='12'/>
+
+
+<datalist id='brands-list'>
+<select name='formal' onchange='javascript:handleSelect(this)'>
+<option value='Python مكتبات'/>
+<option value='python تشفير'/>
+<option value='Ruby مكتبات'/>
+<option value='Perl مكتبات'/>
+<option value='Python أكواد'/>
+<option value='HTML أكواد'/>
+<option value='ruby أكواد'/>
+<option value='اختراق الهاتف'/>
+<option value='اختراق الويندوز'/>
+<option value='حمايه الاندرويد'/>
+<option value='requests مكتبه'/>
+<option value='Fbchat مكتبه'/>
+<option value='Shutil مكتبه'/>
+<option value='Pyperclip مكتبه'/>
+<option value='javaScript كود'/>
+<option value='Php أكواد'/>
+<option value='Json أكواد'/>
+<option value='java أكواد'/>
+</select>
+</datalist>
+ 
+</form>
+
+</div></center>
+
+<script id='rendered-js'>
+
+$('input[data-list]').each(function () {
+  var availableTags = $('#' + $(this).attr("data-list")).find('option').map(function () {
+    return this.value;
+  }).get();
+
+  $(this).autocomplete({
+    source: availableTags }).
+  on('focus', function () {
+    $(this).autocomplete('search', ' ');
+  }).on('search', function () {
+    if ($(this).val() === '') {
+      $(this).autocomplete('search', ' ');
+    }
+  });
+});
+    </script>
+
+<span class='close'/>
+
+
+</div>
+</div>

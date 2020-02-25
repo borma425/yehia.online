@@ -1,0 +1,433 @@
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<link href="https://cdn.statically.io/gh/yehia-hacker/yehia.online/787514db/Css/CodeMiror_height.css" rel="stylesheet"></link>
+<link href="https://cdn.statically.io/gh/yehia-hacker/yehia.online/7448e9fd/Css/them_mr.css" rel="stylesheet"></link>
+<script src="https://cdn.statically.io/gh/yehia-hacker/yehia.online/a92e94eb/javascript/Codemirror.min.js"></script>
+<script src="https://cdn.statically.io/gh/yehia-hacker/yehia.online/6cfb4155/javascript/codemirror_python.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<style>
+
+textsl {
+    color: #fff;
+    background-color: #0d2856;
+    height: 100%;
+    width: 100%;
+    padding: .3em;
+    box-sizing: content-box;
+    font-size: 20px;
+}
+
+</style>
+<span style="font-size: x-large;">يمكن معالجه وتحليل البيانات لأكواد HTML بإستخدام مكتبه في Python تسمي HTMLParser والتي يمكنك من خلالها عمل Output لأكواد HTML وأيضا يمكنك إيجاد Tags في أكواد HTML المضافه. </span><br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-size: x-large;"><a href="https://1.bp.blogspot.com/-7e-q51Nq-LY/XlQQmY3mSvI/AAAAAAAAALs/w00SQhHQZuc4SkolBjE-xfQ_5qZTO7KtgCLcBGAsYHQ/s1600/pythonhp.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="مكتبه htmlparser" border="0" data-original-height="338" data-original-width="450" height="480" src="https://1.bp.blogspot.com/-7e-q51Nq-LY/XlQQmY3mSvI/AAAAAAAAALs/w00SQhHQZuc4SkolBjE-xfQ_5qZTO7KtgCLcBGAsYHQ/s640/pythonhp.jpg" title="مكتبه بايثون,Python" width="640" /></a></span></div>
+<br />
+<span style="font-size: x-large;">يتم إضافه بعض الوظائف لتحليل الأكواد:</span><br />
+<span style="font-size: x-large;">يتم إستخدام ذلك لإداره التحكم في كلا علامات Tag البدايه والنهايه</span><br />
+<textsl>handle_startendtag</textsl>
+<br />
+<span style="font-size: x-large;">مثال:</span>
+<br />
+<textarea id="yehia8009">def handle_startendtag(self, tag, attrs):
+    self.handle_starttag(tag, attrs)
+    self.handle_endtag(tag)
+    </textarea>
+<script id="rendered-js">
+      
+let codemirror8009 = CodeMirror.fromTextArea(
+document.getElementById("yehia8009"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+
+<span style="font-size: x-large;">لإداره TAG البدء منفردا يمكن إستخدام</span><br />
+<textsl>handle_starttag</textsl><br />
+<textarea id="yehia20444">def handle_starttag(self, tag, attrs):
+    pass
+</textarea>
+<script id="rendered-js">
+      
+let codemirror20441 = CodeMirror.fromTextArea(
+document.getElementById("yehia20444"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+<script id="rendered-js">
+      
+let codemirror2041 = CodeMirror.fromTextArea(
+document.getElementById("yehia2041"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+<br />
+<h3 style="text-align: right;">
+<span style="border: 1px solid #be83aa; color: #da3fab; font-size: x-large; padding: 20;">يمكنك إستخدام تلك الوظائف الأخري:</span></h3>
+<span style="font-size: x-large;">التحكم في Tag النهايه</span><br />
+<span style="font-size: x-large;">
+</span>
+<textsl>handle_endtag</textsl>
+
+<br />
+<span style="font-size: x-large;">الأحرف التي يتم تمريرها</span><br />
+<textsl>handle_charref</textsl>
+
+<br />
+<span style="font-size: x-large;">تعتبر الأهم لإداره البيانات</span><br />
+<textsl>handle_data</textsl><br />
+<span style="font-size: x-large;">لإداره التعليقات</span><br />
+<textsl>handle_comment</textsl>
+<br />
+<span style="font-size: x-large;">يمكنك إداراه إرشادات المعالجه وإداره التصريحات بإستخدام</span><br />
+<textarea id="yehia20412">def handle_decl(self, decl):
+    pass
+    
+def handle_pi(self, data):
+    pass</textarea>
+
+<script id="rendered-js">
+      
+let codemirror20412 = CodeMirror.fromTextArea(
+document.getElementById("yehia20412"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+<span style="font-size: x-large;">في البدايه تم إستخدام دوال للبدء والغلق والمزيد لاكن يوجد داخل الداله Self , Tag , attr.. إذا كان الأمر صعب ولا تستطيع وضعهم بنفسك في المكان الصحيح يمكنك معرفه ذلك:</span><br />
+<textsl>handle_charref && handle_entityref </textsl>
+<br />
+<span style="font-size: x-large;">يتم إستخدام بداخلهم:</span><br />
+<textsl>(self, name):</textsl>
+<br />
+<span style="font-size: x-large;">يتم إستخدام في </span><span style="background-color: #0d2856; color: white; font-size: 20px;">(self, data):</span><span style="font-size: x-large;"> حاله</span><br />
+<textsl>handle_dat & handle_comment & handle_pi</textsl>
+<br />
+<span style="font-size: x-large;">جميع الدوال الأخري كما هي تستخدم لها فقط.</span><br />
+<span style="font-size: x-large;">يمكنك إلقاء نظره علي الأكواد التاليه كمثال لإستخدام المكتبه</span><br />
+<span style="font-size: x-large;">يجب عليك تثبيت المكتبه بواسطه Pypi</span><br />
+<textarea id="yehia204124">pip install HTMLParser</textarea>
+<script src="https://cdn.statically.io/gh/yehia-hacker/yehia.online/a92e94eb/javascript/Codemirror.min.js"></script>
+<script src="https://cdn.statically.io/gh/yehia-hacker/yehia.online/6cfb4155/javascript/codemirror_python.min.js"></script>
+<script id="rendered-js">
+      
+let codemirror204124 = CodeMirror.fromTextArea(
+document.getElementById("yehia204124"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+<br />
+<span style="font-size: x-large;">يمكن إستخراج رابط الصوره و Alt من داخل Tag Img:</span><br />
+<textarea id="yehia12">from html.parser import HTMLParser
+from html.entities import name2codepoint
+
+class Yehia(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        for attr in attrs:
+            print("     attr_output:", attr)
+online = Yehia()
+online.feed('<img src="https://cdn.statically.io/gh/yehia-hacker/yehia.online/0ccea8d4/Story/SetUpComputers.jpg" alt="Yehia Online">')</textarea>
+<script id="rendered-js">
+      
+let codemirror12 = CodeMirror.fromTextArea(
+document.getElementById("yehia12"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+
+
+<br />
+<span style="font-size: x-large;">لإستخراج البيانات التي تكون داخل علامات Tag وتحليل التعليقات وبدايه Tag ونهايته يمكنك إستخدام الكود التالي:</span><br />
+<textarea id="yehia300">from html.parser import HTMLParser
+from html.entities import name2codepoint
+
+class Yehia(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        print("Start of tag :", tag)
+
+    def handle_endtag(self, tag):
+        print("End of tag :", tag)
+
+    def handle_data(self, data):
+        print("Data     :", data)
+
+    def handle_comment(self, data):
+        print("Comment  :", data)
+
+Online = Yehia()
+Online.feed(
+# First Line
+    '<script type="text/javascript">'
+#Line2 Run Def
+             'alert("Hello Yehia");</script>'
+# Line 3 Run Def
+             '<!--Write a comment to me-->')
+# Single line Run Def
+Online.feed('<style>#Yehia{font-size:14px;}</style>')
+</textarea>
+
+<script id="rendered-js">
+      
+let codemirror300 = CodeMirror.fromTextArea(
+document.getElementById("yehia300"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+
+
+
+
+<style>
+        #newpost300 {
+  display: none;
+}
+
+#newpost300.visible300 {
+  display: block;
+}
+</style>
+
+
+
+
+    <input class="yehia_online_button small pop1 yehia_online_style_pre" id="button300" type="button" value="تشغيل" />
+    
+    
+    
+<br />
+<div id="newpost300">
+<pre class="yehia_online_print_output  code_outone yehia_online_style" cols="50" id="yehia_online_font" rows="4">Start of tag : script
+Data     : alert("Hello Yehia");
+End of tag : script
+Comment  : Write a comment to me
+Start of tag : style
+Data     : #Yehia{font-size:14px;}
+End of tag : style</pre>
+</div>
+<script type="text/javascript">
+        var div300 = document.getElementById('newpost300');
+
+document.getElementById('button300').addEventListener('click', showhide300);
+
+function showhide300() {
+  div300.classList.toggle('visible300');
+}
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $(":button").click(function(){
+        $("p").toggle();
+
+    if (this.value=="تشغيل") this.value = "إخفاء";
+    else this.value = "تشغيل";
+
+  });
+});
+    </script>
+    <br />
+<span style="font-size: x-large;">في أكواد بايثون تجد  تعليق مكتوب line 1,2,3 هذا يعني انه يمكن كتابه أكواد HTML في أسطر متتاليه داخل القوسين(..) لاكن تجد Single Line في سطر أخر وهذا يعني انه يمكنك كتابه أكثر من كود بشكل منفرد داخل قوس () مخصص له</span><br />
+<span style="font-size: x-large;">يمكنك إيجاد نوع الصفحه أو decl == Declaration</span><br />
+<textarea id="yehia400">from html.parser import HTMLParser
+from html.entities import name2codepoint
+
+class Yehia(HTMLParser):
+    def handle_decl(self, data):
+        print("Decl  :", data)
+Online = Yehia()
+Online.feed('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" '
+             '"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">')</textarea>
+
+<script id="rendered-js">
+      
+let codemirror400 = CodeMirror.fromTextArea(
+document.getElementById("yehia400"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+
+
+
+
+<style>
+        #newpost400 {
+  display: none;
+}
+
+#newpost400.visible400 {
+  display: block;
+}
+</style>
+
+
+
+
+    <input class="yehia_online_button small pop1 yehia_online_style_pre" id="button400" type="button" value="تشغيل" />
+    
+    
+    
+<br />
+<div id="newpost400">
+<pre class="yehia_online_print_output  code_outone yehia_online_style" cols="50" id="yehia_online_font" rows="4">Decl  : DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"
+</pre>
+</div>
+<script type="text/javascript">
+        var div400 = document.getElementById('newpost400');
+
+document.getElementById('button400').addEventListener('click', showhide400);
+
+function showhide400() {
+  div400.classList.toggle('visible400');
+}
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $(":button").click(function(){
+        $("p").toggle();
+
+    if (this.value=="تشغيل") this.value = "إخفاء";
+    else this.value = "تشغيل";
+
+  });
+});
+    </script>
+    
+<br />
+<span style="font-size: x-large;">إستخراج القيم او Link & Name ATTR</span><br />
+<textarea id="yehia500">from html.parser import HTMLParser
+from html.entities import name2codepoint
+
+class Yehia(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        print("Start tag:", tag)
+        for attr in attrs:
+            print("     attr:", attr)
+Online = Yehia()
+Online.feed("<h1>
+<a href='www.yehia.online' id='yehia' "
+             "target='_blank'></a></h1>
+")</textarea>
+
+<script id="rendered-js">
+      
+let codemirror500 = CodeMirror.fromTextArea(
+document.getElementById("yehia500"),
+{
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "python",
+  htmlMode: true,
+  theme: "blackboard",
+  tabSize: 4,
+  indentUnit: 4 });
+    </script>
+
+
+
+
+
+<style>
+        #newpost500 {
+  display: none;
+}
+
+#newpost500.visible500 {
+  display: block;
+}
+</style>
+
+
+
+
+    <input class="yehia_online_button small pop1 yehia_online_style_pre" id="button500" type="button" value="تشغيل" />
+    
+    
+    
+<br />
+<div id="newpost500">
+<pre class="yehia_online_print_output  code_outone yehia_online_style" cols="50" id="yehia_online_font" rows="4">Start tag: h1
+Start tag: a
+     attr: ('href', 'www.yehia.online')
+     attr: ('id', 'yehia')
+     attr: ('target', '_blank')
+
+</pre>
+</div>
+<script type="text/javascript">
+        var div500 = document.getElementById('newpost500');
+
+document.getElementById('button500').addEventListener('click', showhide500);
+
+function showhide500() {
+  div500.classList.toggle('visible500');
+}
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $(":button").click(function(){
+        $("p").toggle();
+
+    if (this.value=="تشغيل") this.value = "إخفاء";
+    else this.value = "تشغيل";
+
+  });
+});
+    </script>
+    <br />
+<br /></div>
+</div>

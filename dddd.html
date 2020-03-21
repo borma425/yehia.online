@@ -1,0 +1,31 @@
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.js"></script>
+
+<textarea id='scan'>
+
+</textarea>
+<div id="camera" style="height:auto;width:auto; text-align:left;"></div>
+
+    <button type="button" id="btPic" onclick="takeSnapShot()">TAKE PHOTO</button>
+
+
+    
+    <p id="snapShot"></p>
+</body>
+
+<script>
+    Webcam.set({
+        width: 620,
+        height: 590,
+        image_format: 'jpeg',
+        jpeg_quality: 100
+    });
+    Webcam.attach('#camera');
+
+    takeSnapShot = function () {
+        Webcam.snap(function (data_uri) {
+document.getElementById('scan').innerHTML=data_uri
+
+});
+    }
+</script>

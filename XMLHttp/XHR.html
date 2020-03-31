@@ -1,0 +1,16 @@
+<div id="Yehia">
+</div>
+
+<script>
+  var xhttp = new XMLHttpRequest();
+  const Url = 'https://rawcdn.githack.com/yehia-hacker/yehia.online/7caac61622e07138c9ba667a0d2ee65ee5dc15c3/XMLHttp/Content.yehia';
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("Yehia").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", Url, true);
+  xhttp.send();
+
+</script>

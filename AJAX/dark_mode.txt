@@ -1,0 +1,129 @@
+<style>
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+.dntoggle{
+font-size: 28px;
+border-radius: 100px;
+background-color: #111111;
+padding: 15px;
+color:#fcfcfc;
+box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+position: fixed;
+bottom:20px;
+left: 20px;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+transition: all 0.2s;
+}
+.fa-moon-o:before{
+padding:0 2px;
+}
+.fa-sun-o{
+background-color: #fcfcfc;
+color:#111111;
+}
+</style>
+<style>
+:root {
+--primary-color: #302AE6;
+--secondary-color: #536390;
+--font-color: #424242;
+--bg-color: #fff;
+}
+[data-theme="dark"] {
+--primary-color: #9A97F3;
+--secondary-color: #818cab;
+--font-color: #e1e1ff;
+--bg-color: #161625;
+}
+body,.card.summary > .information,.post-body,.ui-autocomplete,.yehia_online_textarea_iframe_share,#stories,.autocomplete-suggestions,.ui-autocomplete li a ,.post-header,.post,#header-wrapper,#comments,.post-meta a, .post-meta i,.item #content-wrapper,.comment-form {
+background-color: var(--bg-color);
+color: var(--font-color);
+}
+/*slider switch css */
+.theme-switch-wrapper {
+display: flex;
+align-items: center;
+}
+.theme-switch-wrapper em {
+margin-left: 10px;
+font-size: 1rem;
+}
+.theme-switch input {
+display: none;
+}
+.slider {
+background-color: #ccc;
+bottom: 0;
+cursor: pointer;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+transition: .4s;
+}
+.slider:before {
+background-color: #fff;
+bottom: 4px;
+content: "";
+height: 26px;
+left: 4px;
+position: absolute;
+transition: .1s;
+width: 26px;
+}
+input:checked + .slider {
+background-color: #66bb6a;
+}
+input:checked + .slider:before {
+transform: translateX(26px);
+}
+.slider.round {
+border-radius: 34px;
+}
+.slider.round:before {
+border-radius: 50%;
+}
+</style>
+<label class="theme-switch" for="checkbox">
+<input type="checkbox" id="checkbox" />
+<div class="dntoggle fa fa-moon-o"></div>
+</label>
+<script id="rendered-js">
+const toggleSwitch = document.querySelector('input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+if (currentTheme) {
+document.documentElement.setAttribute('data-theme', currentTheme);
+if (currentTheme === 'dark') {
+toggleSwitch.checked = true;
+}
+}
+function switchTheme(e) {
+if (e.target.checked) {
+document.documentElement.setAttribute('data-theme', 'dark');
+localStorage.setItem('theme', 'dark');
+} else
+{document.documentElement.setAttribute('data-theme', 'light');
+localStorage.setItem('theme', 'light');
+}
+}
+toggleSwitch.addEventListener('change', switchTheme, false);
+</script>
+<script id="rendered-js">
+var theme = localStorage.setItem;
+$('scanner').addClass(theme);
+if ($("scanner").hasClass("scanner")) {
+$('.dntoggle').addClass('fa-sun-o');
+} else {
+}
+$('.dntoggle').click(function () {
+$('.dntoggle').toggleClass('fa-moon-o');
+$('.dntoggle').toggleClass('fa-sun-o');
+if ($("scanner").hasClass("scanner")) {
+$('scanner').toggleClass('scanner');
+} else {
+}
+});
+</script>
+
+
+

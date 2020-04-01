@@ -8,7 +8,7 @@
 <iframe name='myFrame' src='https://cdn.statically.io/gh/yehia-hacker/yehia.online/6cfb4155/index/icon.html'/>
 <br/><br/>
 <div class='bottom-copyright'>
-<script type='text/javascript'>var creditsyear=new Date();document.write(creditsyear.getFullYear());</script> &#169;
+<script type='text/javascript'>var creditsyear=new Date();document.write(creditsyear.getFullYear());</script> ©
 <a class='nubies-credit' expr:href='data:blog.homepageUrl' expr:title='data:blog.title'><data:blog.title/></a>
 جميع الحقوق محفوظة لدى
 </div>

@@ -188,14 +188,14 @@ display: inherit;
 }
 
 
-
 #fontpg {
-  background: #561cc3;
-  font-family: 'Cairo', sans-serif;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  line-height: normal;
+    background: #561cc3;
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    line-height: normal;
+    right: -7px;
 }
 .main-content .item {
     display: grid;

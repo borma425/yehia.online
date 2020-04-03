@@ -28,7 +28,7 @@
     padding: 0;
     position: relative;
     line-height: normal;
-    margin-left: 180px;
+    right: 367px;
 }
 .comments .comments-content .user {
     font-style: normal;

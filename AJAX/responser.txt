@@ -112,7 +112,7 @@ div.btnlsdo {
 
 div#cclose {
     margin-top: -23px;
-    margin-left: -54px;
+    margin-left: -100px;
     color: darkgray;
     margin-right: 260px;
 }
@@ -406,7 +406,7 @@ yhide#hdnl {
     font-size: 320px;
 }
 div#cpp {
-    margin-top: -50px;
+    margin-top: -75px;
     margin-left: 33px;
 }
 div#inputer {
@@ -485,7 +485,7 @@ div#proname {
 
 div#cclose {
     margin-top: -59px;
-    margin-left: -100px;
+    margin-left: -43px;
     color: darkgray;
 }
 
@@ -535,6 +535,11 @@ img#borderimageyehia {
 @media screen and (max-width :320px){
 .file-info {
     text-align: center;
+}
+div#cclose {
+    margin-top: -59px;
+    margin-left: -56px;
+    color: darkgray;
 }
 div#btn480{
   display: inline;
@@ -632,8 +637,8 @@ input[type="text"], input[type="email"] {
 }
 div#yehianew {
     position: absolute;
-    top: -1800px;
-    left: 15px;
+top: -1683px;
+left: 15px;
 }
 
 
@@ -642,8 +647,8 @@ div#btnss {
     margin-left: -23px;
 }
 div#inputer {
-    margin-top: -85px;
-    margin-left: -90px;
+margin-top: -146px;
+margin-left: -90px;
     width: 120px;
 }
 p#downer {
@@ -651,8 +656,8 @@ p#downer {
     font-size: 15px;
     margin-left: 70px;
     width: 200px;
-    margin-top: 17px;
-}
+    margin-top: -31px;
+    }
 p.pdowner {
     position: absolute;
     top: 123px;

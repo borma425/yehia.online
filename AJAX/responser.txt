@@ -485,7 +485,7 @@ div#proname {
 
 div#cclose {
     margin-top: -59px;
-    margin-left: -48px;
+    margin-left: -100px;
     color: darkgray;
 }
 

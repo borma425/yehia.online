@@ -171,7 +171,7 @@ div#yehianew {
     overflow: auto;
     margin-left: 138px;
     position: relative;
-    top: 23px;
+    top: -1px;
     height: 131px;
 }
 p#sps320 {
@@ -538,6 +538,7 @@ img#borderimageyehia {
     overflow: auto;
     margin-left: 123px;
     position: relative;
+    top: -2px;
     height: 131px;
 }
 .file-info {

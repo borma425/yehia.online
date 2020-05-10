@@ -169,7 +169,7 @@ div#yehianew {
 .stories.carousel {
     white-space: nowrap;
     overflow: auto;
-    margin-left: 2px;
+    margin-left: 138px;
     position: relative;
     top: 23px;
     height: 131px;
@@ -533,6 +533,13 @@ img#borderimageyehia {
 /* yehia_mobile */
 
 @media screen and (max-width :320px){
+.stories.carousel {
+    white-space: nowrap;
+    overflow: auto;
+    margin-left: 123px;
+    position: relative;
+    height: 131px;
+}
 .file-info {
     text-align: center;
 }

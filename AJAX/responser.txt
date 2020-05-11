@@ -171,7 +171,7 @@ div#yehianew {
     overflow: auto;
     margin-left: 138px;
     position: relative;
-    top: -1px;
+    top: 2px;
     height: 131px;
 }
 p#sps320 {
@@ -197,6 +197,7 @@ display: inherit;
     line-height: normal;
     right: -7px;
 }
+
 .main-content .item {
     display: grid;
     grid-template-rows: 1fr min-content;
@@ -538,7 +539,7 @@ img#borderimageyehia {
     overflow: auto;
     margin-left: 123px;
     position: relative;
-    top: -2px;
+    top: 2px;
     height: 131px;
 }
 .file-info {
